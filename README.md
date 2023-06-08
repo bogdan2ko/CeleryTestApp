@@ -45,7 +45,7 @@ docker-compose up
 ## Usage
 The CeleryTestApp allows you to perform the following tasks:
 
-Scheduled tasks:Often there are tasks that need to be completed at a specific date and time: send a reminder to the user, end the trial period of the account, publish a post on social networks.
+Scheduled tasks: Often there are tasks that need to be completed at a specific date and time: send a reminder to the user, end the trial period of the account, publish a post on social networks.
 
 Send Email: Enter the recipient's email address, subject, and message in the input fields and click the "Send" button. The application will asynchronously send an email using Celery.
 
